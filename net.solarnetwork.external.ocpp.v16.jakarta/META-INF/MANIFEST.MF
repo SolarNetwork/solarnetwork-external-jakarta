@@ -8,18 +8,34 @@ Automatic-Module-Name: net.solarnetwork.external.ocpp.v16.jakarta
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: 
  ocpp.v16.cp;version="1.0.0";
-  uses:="jakarta.xml.namespace,
-   jakarta.xml.datatype,
-   jakarta.xml.ws,
-   jakarta.xml.bind",
+  uses:="javax.xml.namespace,
+   jakarta.xml.bind,
+   javax.xml.datatype,
+   jakarta.xml.ws",
  ocpp.v16.cs;version="1.0.0";
-  uses:="jakarta.xml.namespace,
-   jakarta.xml.datatype,
-   jakarta.xml.ws,
-   jakarta.xml.bind"
+  uses:="javax.xml.namespace,
+   jakarta.xml.bind,
+   javax.xml.datatype,
+   jakarta.xml.ws"
 Import-Package: 
+ jakarta.activation,
  jakarta.jws,
  jakarta.jws.soap,
  jakarta.xml.bind,
  jakarta.xml.bind.annotation,
- jakarta.xml.ws
+ jakarta.xml.soap,
+ jakarta.xml.ws,
+ jakarta.xml.ws.handler,
+ jakarta.xml.ws.handler.soap,
+ javax.crypto;resolution:=optional,
+ javax.crypto.spec;resolution:=optional,
+ javax.xml.datatype,
+ javax.xml.namespace,
+ javax.xml.parsers,
+ javax.xml.validation,
+ org.slf4j;version="[1.7,2.0)",
+ org.w3c.dom,
+ org.w3c.dom.bootstrap,
+ org.w3c.dom.ls,
+ org.xml.sax,
+ org.xml.sax.helpers
