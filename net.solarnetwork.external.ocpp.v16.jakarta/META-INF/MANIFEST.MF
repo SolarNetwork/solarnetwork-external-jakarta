@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: OCPP 1.6 API (Jakarta EE)
+Bundle-SymbolicName: net.solarnetwork.external.ocpp.v16.jakarta
+Bundle-Vendor: SolarNetwork
+Bundle-Version: 1.0.0
+Automatic-Module-Name: net.solarnetwork.external.ocpp.v16.jakarta
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: 
+ ocpp.v16.cp;version="1.0.0";
+  uses:="jakarta.xml.namespace,
+   jakarta.xml.datatype,
+   jakarta.xml.ws,
+   jakarta.xml.bind",
+ ocpp.v16.cs;version="1.0.0";
+  uses:="jakarta.xml.namespace,
+   jakarta.xml.datatype,
+   jakarta.xml.ws,
+   jakarta.xml.bind"
+Import-Package: 
+ jakarta.jws,
+ jakarta.jws.soap,
+ jakarta.xml.bind,
+ jakarta.xml.bind.annotation,
+ jakarta.xml.ws
