@@ -7,12 +7,12 @@ Bundle-Version: 1.0.0
 Automatic-Module-Name: net.solarnetwork.external.ocpp.v16.jakarta
 Bundle-RequiredExecutionEnvironment: JavaSE-17
 Export-Package: 
- ocpp.v16.cp;version="1.0.0";
+ ocpp.v16.jakarta.cp;version="1.0.0";
   uses:="javax.xml.namespace,
    jakarta.xml.bind,
    javax.xml.datatype,
    jakarta.xml.ws",
- ocpp.v16.cs;version="1.0.0";
+ ocpp.v16.jakarta.cs;version="1.0.0";
   uses:="javax.xml.namespace,
    jakarta.xml.bind,
    javax.xml.datatype,
