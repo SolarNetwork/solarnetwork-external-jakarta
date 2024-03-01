@@ -57,7 +57,7 @@
                             <wsdlFiles>
                                 <wsdlFile>OCPP_ChargePointService_1.6.wsdl</wsdlFile>
                             </wsdlFiles>
-                            <packageName>ocpp.v16.cp</packageName>
+                            <packageName>ocpp.v16.jakarta.cp</packageName>
                         </configuration>
                     </execution>
                     <execution>
@@ -70,7 +70,7 @@
                             <wsdlFiles>
                                 <wsdlFile>OCPP_CentralSystemService_1.6.wsdl</wsdlFile>
                             </wsdlFiles>
-                            <packageName>ocpp.v16.cs</packageName>
+                            <packageName>ocpp.v16.jakarta.cs</packageName>
                         </configuration>
                     </execution>
                 </executions>
