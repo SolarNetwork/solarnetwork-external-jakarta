@@ -8,12 +8,13 @@ import jakarta.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for UnitOfMeasure.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
  * <pre>
  * &lt;simpleType name="UnitOfMeasure"&gt;
  *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string"&gt;
  *     &lt;enumeration value="Celsius"/&gt;
+ *     &lt;enumeration value="Celcius"/&gt;
  *     &lt;enumeration value="Fahrenheit"/&gt;
  *     &lt;enumeration value="Wh"/&gt;
  *     &lt;enumeration value="kWh"/&gt;
@@ -32,7 +33,7 @@ import jakarta.xml.bind.annotation.XmlType;
  *   &lt;/restriction&gt;
  * &lt;/simpleType&gt;
  * </pre>
- * 
+ *
  */
 @XmlType(name = "UnitOfMeasure")
 @XmlEnum
@@ -40,6 +41,9 @@ public enum UnitOfMeasure {
 
     @XmlEnumValue("Celsius")
     CELSIUS("Celsius"),
+    @XmlEnumValue("Celcius")
+    @Deprecated
+    CELCIUS("Celcius"),
     @XmlEnumValue("Fahrenheit")
     FAHRENHEIT("Fahrenheit"),
     @XmlEnumValue("Wh")
