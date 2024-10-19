@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<bindings version="3.0" 
+          xmlns="https://jakarta.ee/xml/ns/jaxb"
+          xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns:sn="urn:solarnetwork:sunspec:plant-extract:1.0"
+          xsi:schemaLocation="https://jakarta.ee/xml/ns/jaxb https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd">
+
+	<!-- See: https://docs.oracle.com/javase/tutorial/jaxb/intro/custom.html
+	     for documentation on customizing JAXB bindings. -->
+
+	<bindings schemaLocation="sunspec_plant_extract.xsd">
+		<schemaBindings>
+			<package name="net.solarnetwork.external.sunspec.plantextract.jakarta"/>
+		</schemaBindings>
+	</bindings>
+	
+</bindings>

@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SunSpec Plant Extract (Jakarta EE)
+Bundle-Description: Support for the SunSpec Plant Extract XML format.
+Bundle-SymbolicName: net.solarnetwork.external.sunspec.plantextract.jakarta
+Bundle-Version: 1.0.0
+Bundle-Vendor: SolarNetwork
+Automatic-Module-Name: net.solarnetwork.external.sunspec.plantextract.jakarta
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: 
+ net.solarnetwork.external.sunspec.plantextract.jakarta;version="1.0.0";
+  uses:="jakarta.xml.bind.annotation"
+Import-Package: 
+ jakarta.xml.bind.annotation

@@ -1,0 +1,25 @@
+plugins {
+    id 'java-library'
+    id("com.github.bjornvester.xjc") version "1.8.1"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+xjc {
+    // Set properties here...
+}
